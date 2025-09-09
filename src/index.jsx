@@ -9,7 +9,7 @@ root.render(
   <BrowserRouter>
     <Routes>
       <Route path="/register" element={<RegisterPage />} />
-      <Route path="/profile" element={<div>Страница профиля (позже)</div>} />
+      {/* <Route path="/profile" element={<div>Страница профиля (позже)</div>} /> */}
     </Routes>
   </BrowserRouter>
 );
