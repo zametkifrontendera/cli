@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import RegisterPage from "@/pages/RegisterPage/ui/RegisterPage";
+import { RegisterPage } from "@/pages/RegisterPage/ui/RegisterPage";
 import { LoginPage } from "@/pages/LoginPage/ui/LoginPage";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
